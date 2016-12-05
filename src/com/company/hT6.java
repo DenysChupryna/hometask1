@@ -17,5 +17,6 @@ public class hT6 {
         int c = sqrt((a^2)+(b^2));
 
 
+
     }
 }
