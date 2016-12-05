@@ -9,12 +9,16 @@ public class hT6 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("катет a");
-        int a = scanner.nextInt();
+        int catet1 = scanner.nextInt();
         System.out.println("катет b");
-        int b = scanner.nextInt();
-        int s = (a*b)/2;
-        System.out.println("площадь равна " + s);
-        int c = sqrt((a^2)+(b^2));
+        int catet2 = scanner.nextInt();
+        int square = (catet1*catet2)/2;
+        System.out.println("площадь равна " + square);
+        double gippo = sqrt((catet1^2)+(catet2^2));
+        System.out.println("гипотенуза = " + gippo);
+        double perimetr = catet1+catet2+gippo;
+        System.out.println("периметр = " + perimetr);
+
 
 
 
